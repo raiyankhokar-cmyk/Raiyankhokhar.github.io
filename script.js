@@ -17,10 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // -------------------------------------------------------------
   // 2. Mobile Menu Drawer Navigation
   // -------------------------------------------------------------
-  const mobileToggle = document.getElementById('mobile-toggle');
-  const mobileDrawer = document.getElementById('mobile-drawer');
-  const menuIcon = mobileToggle.querySelector('.icon-menu');
-  const closeIcon = mobileToggle.querySelector('.icon-close');
+const mobileToggle = document.getElementById('mobileToggle');
+const mobileDrawer = document.getElementById('navMenu');
+
+if (mobileToggle && mobileDrawer) {
+  mobileToggle.addEventListener('click', () => {
+    mobileDrawer.classList.toggle('open');
+  });
+}
   const mobileLinks = document.querySelectorAll('.mobile-link, .mobile-drawer .btn');
 
   const toggleMobileMenu = () => {
