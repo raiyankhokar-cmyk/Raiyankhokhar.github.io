@@ -1859,3 +1859,11 @@ a.contact-card {
     scroll-behavior: auto;
   }
 }
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.nav-menu.open {
+  display: flex;
+}
