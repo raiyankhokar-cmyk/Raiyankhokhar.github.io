@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const footerYearTarget = document.getElementById('footer-year-target');
   if (footerYearTarget) {
     const currentYear = new Date().getFullYear();
-    footerYearTarget.innerHTML = `&copy; ${currentYear} Sajid Khokhar. All rights reserved.`;
+    footerYearTarget.innerHTML = `&copy; ${currentYear} Raiyan khokhar. All rights reserved.`;
   }
 
   // -------------------------------------------------------------
