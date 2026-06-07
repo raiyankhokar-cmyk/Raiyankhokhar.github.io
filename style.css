@@ -1858,4 +1858,11 @@ a.contact-card {
   html {
     scroll-behavior: auto;
   }
+   .timeline-dot{
+    left: 155px !important;
+}
+
+.timeline-role{
+    margin-left: 20px !important;
+}
 }
