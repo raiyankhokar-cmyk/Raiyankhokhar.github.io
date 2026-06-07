@@ -918,7 +918,7 @@ section {
 /* Mobile-first: single column, left-padded to clear the dot+line */
 .timeline-item {
   position: relative;
-  padding-left: 32px;
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
   gap: 4px;
